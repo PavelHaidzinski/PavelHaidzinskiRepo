@@ -5,11 +5,11 @@ import java.util.concurrent.BlockingQueue;
 /**
  * Created by Pavel_Haidzinski on 5/26/2017.
  */
-public class Consumer implements Runnable {
+public class ConsumerArray implements Runnable {
 
     private BlockingQueue queue;
 
-    public Consumer(BlockingQueue queue){
+    public ConsumerArray(BlockingQueue queue){
         this.queue = queue;
     }
 

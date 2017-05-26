@@ -7,11 +7,11 @@ import java.util.concurrent.BlockingQueue;
 /**
  * Created by Pavel_Haidzinski on 5/26/2017.
  */
-public class Producer implements Runnable {
+public class ProducerArray implements Runnable {
 
     private BlockingQueue queue;
 
-    public Producer(BlockingQueue queue){
+    public ProducerArray(BlockingQueue queue){
         this.queue = queue;
     }
 
